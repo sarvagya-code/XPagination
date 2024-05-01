@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.table{
+  display: flex;
+  justify-content: center;
+}
+
+.tableData{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableData td, .tableData th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tableData th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  border-style: hidden;
+}
+
+.toggle{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.toggleButton{
+  width: 100px;
+  height: 40px;
+  background-color: #04AA6D;
+  border: 1px solid #04AA6D;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+}
+
+.toggleButton:hover{
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+}
+
+.pageNum{
+  width: 30px;
+  height: 30px;
+  background-color: #04AA6D;
+  border-radius: 5px;
+  padding-top: 5px;
+}
